@@ -8,6 +8,8 @@ Bei Xship handelt es sich um ein Drittanbieter Video-Addon für Kodi, welches da
 
 Der Schwerpunkt von Xship liegt darin, die Indexseiten funktionsfähig zu halten
 
+Das Addon läuft auf Kodi 18 und auf Kodi 19!
+
 Xship zeichnet sich durch seine Schnelligkeit bei der Suche und der Benutzeroberfläche aus. Neue Indexseiten und Funktionen gibt es nur wenn sich das Team dazu entscheidet und Zeit hat
 
 Es gibt *KEIN* Forum und *KEINEN* Chatroom für offizielle Hilfe. Bei Problemen muss hier auf Github ein **[Issues](https://github.com/watchone/Downloads/issues)** erstellt werden und das Team antwortet darauf
