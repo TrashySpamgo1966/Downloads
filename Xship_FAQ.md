@@ -47,17 +47,17 @@ Mit Xship ist es möglich über eine einfache Benutzeroberfläche mehrere Stream
 
 Dabei ist die wichtigste Eigenschaft von Xship, die Schnelligkeit der Suche und der Menünavigation
 
-Xship greift bei Film/Serienauswahl oder einer Suche, zuerst auf eine Filmdatenbank zu (z.B.imdb, tvdb) zu und zeigt ein Ergebnis an
+Xship greift bei Film/Serienauswahl oder einer Suche, zuerst auf eine Filmdatenbank zu (tmdb) zu und zeigt ein Ergebnis an
 
 Erst nach der getroffenen Auswahl werden die Anbieter & Hoster durchsucht
 
 Der Menüaufbau von Xship ist eigentlich selbsterklärend
 
-Die Menüsprache von Xship ist jene Sprache, auf die Kodi eingestellt ist
+Die Menüsprache von Xship ist Deutsch.
 
 **Der Schwerpunkt von Xship liegt darin, die Indexseiten auf funktionierendem Stand zu Halten. Neue Funktionen wird es nicht geben, ausser das Team entschließt isch dazu**
 
-Bei Problemen usw. kann über den Xship Gitter Chatroom Kontakt aufgenommen werden
+Bei Problemen usw. kann über Issues Kontakt aufgenommen werden
 
 Einstellungen welche in Xship gemacht werden, sind in einer sogenannten settings.xml gespeichert
 
