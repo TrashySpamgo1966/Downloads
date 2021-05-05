@@ -159,6 +159,8 @@ Hier werden alle Xship Einstellungen angezeigt
 
 Hierbei wird der gesamte Suchverlauf, bei Serien/Filme gelöscht
 
+Möchte man nur einen Sucheintrag löschen, so ist dies über das Kontextmenü möglich, gewünschten Sucheintrag wählen und löschen
+
 **Suche**
 
 Die Suche in Xship ist eine Globale Suche
@@ -529,6 +531,8 @@ Die Datenbank befindet sich unter:
 Ihr könnt den "gesehen Status" (wached state) auch exportieren und auf einem anderen System importieren
 
 Ihr müsst dann also nur die oben genannte *playcount.db* auf ein anderes System übertragen
+
+Manuell ist möglich, den gesehen Status, über das Kontextmenü für Filme, Serien, Staffeln und Episoden selbst zu setzen
 
 
 **Xship Download Serien Ordner & Filme Ordner zur Bibliothek hinzufügen**
