@@ -6,7 +6,7 @@ Willkommen bei Xship für Kodi!
 
 Bei Xship handelt es sich um ein Drittanbieter Video-Addon für Kodi, welches das Streamen von Filmen und Serien über eine optisch ansprechende Benutzeroberfläche ermöglicht
 
-Xship ist ein eigenständiges Addon. Vom Aussehen ist es Lastship sehr ähnlich, aber von den Funktionsweiße anders Aufgebaut
+Xship ist ein eigenständiges Addon. Vom Aussehen ist es Lastship sehr ähnlich, aber von der Funktionsweise anders aufgebaut
 
 Der Schwerpunkt von Xship liegt darin, die Indexseiten funktionsfähig zu halten
 
