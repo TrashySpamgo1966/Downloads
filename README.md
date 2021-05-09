@@ -14,7 +14,14 @@ Das Addon läuft auf Kodi 18 und auf Kodi 19!
 
 Xship zeichnet sich durch seine Schnelligkeit bei der Suche und der Benutzeroberfläche aus. Neue Indexseiten und Funktionen gibt es nur wenn sich das Team dazu entscheidet und Zeit hat
 
-Es gibt *KEIN* Forum und *KEINEN* Chatroom für offizielle Hilfe. Bei Problemen muss hier auf Github ein **[Issues](https://github.com/watchone/Downloads/issues)** erstellt werden und das Team antwortet darauf
+__Es gibt *KEIN* Forum und *KEINEN* Chatroom für offizielle Hilfe.__
+
+Bei Problemen muss hier auf Github ein **[Issues](https://github.com/watchone/Downloads/issues)** erstellt werden und das Team antwortet darauf.
+
+ __Bitte keine der Isusses schließen!__
+ 
+Da es außer hier keinen weiteren Support Bereich (Chat oder so) von uns gibt so bleiben die Infos aus den Issues auch für folgende Benutzer leichter auffindbar!
+Issues ohne informativen Inhalt für Alle, die werden dann von uns geschlossen.
 
 Webseiten werden als Indexseiten bezeichnet, welche auf die eigentlichen Quellen verweisen die für das bereitgestellte Angebot verantworlich sind!
 
