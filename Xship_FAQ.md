@@ -1,4 +1,4 @@
-﻿# Xship für Kodi -Deutsche Anleitung/ FAQ
+# Xship für Kodi -Deutsche Anleitung/ FAQ
 
 ![Xship logo](https://raw.githubusercontent.com/watchone/Downloads/master/icon.png)
 
@@ -15,9 +15,9 @@
     - [2.5 Konten](#25-konten)
     - [2.6 Downloads](#26-downloads)
     - [2.7 URL Resolver Konfiguration](#27-url-resolver-konfiguration)
-
-    - [2.8 Gesehen Status in Xship ](#28-gesehen-status-in-Xship)
- 
+    - [2.8 Gesehen Status in Xship ](#28-gesehen-status-in-xship)
+    - [2.9 Plugin Video Themoviedb Helper](#29-plugin-video-themoviedb-helper)
+    
 - [3. Bekannte Probleme](#3-bekannte-probleme)
     - [3.1 Fehler bei der Installation](#31-fehler-bei-der-installation)
     - [3.2 URL Resolver Fehler](#32-url-resolver-fehler)
@@ -142,8 +142,6 @@ Xship und xStream verwenden den gleichen URLResolver
 2. plugin.video.Xship Installieren 
 
 -  unter *Video-Addons* ist Xship dann zu finden
-
-
 
 ## 2.2 Allgemeine Einstellungen und Wiedergabe
 
@@ -491,55 +489,11 @@ Während des Downloads wird in unregelmäßigen Abständen der Downloadfortschri
 
 Ihr findet den Film/die Serie dann in Eurem Download Ordner
 
-## 2.7 URL Resolver Konfiguration
-
-Es besteht die Möglichkeit, in den Einstellungen des URL Resolvers die Priorität der Hoster festzulegen also welche Hoster als ersters angezeigt bzw. verwendet werden sollen.
-
-Diese Einstellungen werden in der settings.xml gespeichert.
-
-Diese befindet sich hier und kann auch auf ein anderes System kopiert werden:
-
- ....kodi/userdata/addon_data/script.module.urlresolver
-
-**Jedoch aufgrund der Arbeitsweise von Xship wird diese Einstellung im Xship Addon nicht unbedingt berücksichtigt**
-
-*Da Xship & Xstream den gleichen URL Resolver verwenden, hat diese Einstellung auch Auswirkung auf beide Addons!!*
-
-Xship probiert automatisch alle verfügbaren Hoster aus, bis ein Stream abgespielt werden kann
-
-Die Auswahlreihenfolge der Hoster richtet sich nach deren Priorität
-
-Diese kann unter “Resolver Settings” angepasst werden.
-
-***Niedrige Werte werden vor hohen Werten gewählt***
-
-Sind Eure Priorisierten (Lieblings) Hoster nicht nicht verfügbar, nimmt Xship den nächsten Hoster der funktioniert
-
-Den URL Resolver findet Ihr in Kodi:
-
-Optionen - Einstellungen - Addons - System Addons - Abhängigkeiten - URL Resolver:  Konfigurieren
-
-
-## 2.8 Gesehen Status in Xship
-
-Der geshen Status wird vom Addon selbst gesetzt
-
-Die Datenbank befindet sich unter:  
-
-.....kodi/userdata/addon_data/plugin.video.Xship/playcount.db
-
-Ihr könnt den "gesehen Status" (wached state) auch exportieren und auf einem anderen System importieren
-
-Ihr müsst dann also nur die oben genannte *playcount.db* auf ein anderes System übertragen
-
-Manuell ist möglich, den gesehen Status, über das Kontextmenü für Filme, Serien, Staffeln und Episoden selbst zu setzen
-
-
 **Xship Download Serien Ordner & Filme Ordner zur Bibliothek hinzufügen**
 
 **Serien**
 
-*Gehe zu: *
+*Gehe zu:*
 
  - Kategorie Videos-Dateien
  
@@ -556,17 +510,23 @@ Manuell ist möglich, den gesehen Status, über das Kontextmenü für Filme, Ser
 hier wird eingestellt, ob es eine Serie oder ein Film ist
 
 *Dieser Ordner beinhaltet:*
+
 wähle aus was du brauchst, z.B. Serien
 
 *Bitte Informationsquelle wählen:*
+
 The TVDB
 
 *Einstellungen:*
+
 Aktiviere Fanart: aktivieren
+
 Sprache: de
+
 Get rating from: The TVDB wählen
 
 OK
+
 Inhalt Scanning Einstellungen kann man alles deaktiviert lassen
 
 **Filme**
@@ -624,6 +584,150 @@ Fertig
 Serien & Filme werden jetzt im Kodi Menü Serien bzw. Filme angezeigt
 
 Solltet Ihr jetzt Eure Filme/Serien noch nicht sehen, dann das “Seitenmenü” (Optionen) öffnen und Bibliothek aktualisieren klicken, oder wie oben beschrieben
+
+## 2.7 URL Resolver Konfiguration
+
+Es besteht die Möglichkeit, in den Einstellungen des URL Resolvers die Priorität der Hoster festzulegen also welche Hoster als ersters angezeigt bzw. verwendet werden sollen.
+
+Diese Einstellungen werden in der settings.xml gespeichert.
+
+Diese befindet sich hier und kann auch auf ein anderes System kopiert werden:
+
+ ....kodi/userdata/addon_data/script.module.urlresolver
+
+**Jedoch aufgrund der Arbeitsweise von Xship wird diese Einstellung im Xship Addon nicht unbedingt berücksichtigt**
+
+*Da Xship & Xstream den gleichen URL Resolver verwenden, hat diese Einstellung auch Auswirkung auf beide Addons!!*
+
+Xship probiert automatisch alle verfügbaren Hoster aus, bis ein Stream abgespielt werden kann
+
+Die Auswahlreihenfolge der Hoster richtet sich nach deren Priorität
+
+Diese kann unter “Resolver Settings” angepasst werden.
+
+***Niedrige Werte werden vor hohen Werten gewählt***
+
+Sind Eure Priorisierten (Lieblings) Hoster nicht nicht verfügbar, nimmt Xship den nächsten Hoster der funktioniert
+
+Den URL Resolver findet Ihr in Kodi:
+
+Optionen - Einstellungen - Addons - System Addons - Abhängigkeiten - URL Resolver:  Konfigurieren
+
+
+## 2.8 Gesehen Status in Xship
+
+Der geshen Status wird vom Addon selbst gesetzt
+
+Die Datenbank befindet sich unter:  
+
+.....kodi/userdata/addon_data/plugin.video.Xship/playcount.db
+
+Ihr könnt den "gesehen Status" (wached state) auch exportieren und auf einem anderen System importieren
+
+Ihr müsst dann also nur die oben genannte *playcount.db* auf ein anderes System übertragen
+
+Manuell ist möglich, den gesehen Status, über das Kontextmenü für Filme, Serien, Staffeln und Episoden selbst zu setzen
+
+
+## 2.9 Plugin Video Themoviedb Helper
+
+Das Addon [plugin.video.themoviedb.helper](https://github.com/jurialmunkey/plugin.video.themoviedb.helper) ist ein eigenständiges Addon und dient als Erweiterung für Xship
+
+Damit ergeben sich neue Möglichkeiten im Bezug auf Nutzung von Trakt, TMDB und der lokalen Bibliothek
+
+Bei Nutzung dieses Addons dient Xship nur noch zum Suchen der Hoster/Indexseiten. Alles andere wird direkt von diesem Addon erledigt
+
+**Installation:**
+
+Das Addon aus obigem Link herunterladen und in Kodi "aus .zip Installieren"
+
+Nach der Installation muss mindestens eine Einstellung gemacht werden, damit der entsprechende Ordner angelegt wird 
+
+**Einrichtung**
+
+Das Addon ist unter Addons - Video Addons zu finden
+
+Auswählen, das Kontextmenü öffnen und Einstellungen wählen
+
+*Allgemein*
+
+Language and Country auf German stellen
+
+Im Anschluss Kodi verlassen und am PC / Android zu folgendem Ordner navigieren:
+
+- Windows
+	- `C:\Users\BENUTZERNAME\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.themoviedb.helper`    (AppData ist ein versteckter Ordner)
+
+- Android 
+	- `/Android/data/org.xbmc.kodi/files/.kodi/userdata/addon_data/plugin.video.themoviedb.helper`
+	
+	- `/sdcard/Android/data/org.xbmc.kodi/files/.kodi/userdata/addon_data/plugin.video.themoviedb.helper`  (.kodi ist ein versteckter Ordner)
+
+Hier eine Ordner mit dem Namen *players* erstellen (......./plugin.video.themoviedb.helper/players)
+
+Nun von unserem [Github](https://github.com/watchone/Downloads) die xship.json herunterladen und in den players Ordner kopieren
+
+Im Anschluss daran, Kodi starten und das Addon weiter einrichten
+
+*Accounts*
+
+Hier kann eine Verbindung zu [Trakt.tv](www.trakt.tv) hergestellt werden, kostenloses Benutzerkonto erforderlich
+
+Wenn erwünscht kann hier noch *Get watched indicators from Trakt* (importiere gesehen Status von Trakt) aktiviert werden
+
+**Trakt Konto einrichten:**
+
+Trakt.tv bietet viele Möglichkeiten, wie z.B. das Synchronisieren des Fortsetzungspunktes auf deren Server
+
+Auf Trakt.tv ein Konto erstellen
+
+In der Kategorie *Accounts* - *Trakt API* auf *Authenticate Trakt Account* klicken
+
+*Es wird ein Infofenster angezeigt:*
+
+Webseite besuchen: https://trakt.tv/activate
+
+Dort werdet Ihr dann aufgefordert den Code (der in Kodi angezeigt wird)  einzugeben, Continue
+
+Allow Trakt Helper to use Your Accout (Erlaube Trakt Helper die Verwendung Deines Kontos), YES
+
+WooHoo! Your device is now connected and will automatically refresh in a few seconds (Dein Gerät ist jetzt verbunden und wird in wenigen Sekunden automatisch aktualisiert)
+
+Zurück in plugin.video.themoviedb.helper wird nun zusätzlich die Kategorie Trakt angezeigt
+
+Der Trakt Service kann ab jetzt genutzt weren
+
+Nachdem nun im Addon eine Suche durchgeführt wurde und das Ergebnis angezeigt wird, kann das Kontextmenü geöffnet werden und hier *Trakt options*
+
+Im folgendem Menü gibt es eine Anzahl an verschiedenen Trakt Möglichkeiten wie zum Beispiel "Add to Watchlist". Wird hier was gespeichert sind das quasi die Trakt Favoriten
+
+Zu finden ist das Ganze dann im Menüpunkt Trakt z.B. unter Serien Watchlist. Dieser Menüpunkt kann dann für einen schnellen Zugriff als Kodi Favoriten gespeichert werden
+
+*Players*
+
+*Default Player for Movies* und *Default Player for Episodes* öffnen und hier Play with Xship wählen
+
+Sonst sind hier keine Einstellungen notwendig
+
+*API Keys*
+
+Auf [Fanart.tv](www.fanart.tv) kann ein kostenloses Benutzerkonto erstellt werden und hier dann der persönliche API Key bei *Fanart.tv client key* eingetragen werden, wenn erwünscht
+
+*Bibliothek*
+
+Filme und Serien können mit diesem Addon auch in die Kodi Bibliothek integriert werden. Die Speicherpfade dafür sind schon vorgegeben und befinden sich hier:
+
+*....userdata/addon_data/plugin.video.themoviedb.helper/movies*
+
+*....userdata/addon_data/plugin.video.themoviedb.helper/tvshows*
+
+Diese Ordner erscheinen erst, wenn ein Film bzw. eine Serie zur Bibliothek hinzugefügt wurde
+
+Um etwas zur Kodi Bibliothek hinzuzufügen, wird nach Anzeige des Suchergebnis das Kontextmenü geöffnte und daraus der Eintrag *Zur Bibliothek hinzufügen* ausgewählt
+
+Es werden nun lokale .strm Dateien in obigem Ordner abgelegt
+
+Der obige Ordner muss in Kodi noch für die Bibliothek entsprechend eingerichtet werden, wie das geht steht in Kap.2.6
 
 
 # 3. Bekannte Probleme
