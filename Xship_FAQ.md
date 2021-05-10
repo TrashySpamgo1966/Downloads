@@ -637,6 +637,8 @@ Damit ergeben sich neue Möglichkeiten im Bezug auf Nutzung von Trakt, TMDB und 
 
 Bei Nutzung dieses Addons dient Xship nur noch zum Suchen der Hoster/Indexseiten. Alles andere wird direkt von diesem Addon erledigt
 
+Es sind keine weiteren Addons notwendig, bei Verwendung von Trakt mit plugin.video.themoviedb.helper
+
 
 **Installation:**
 
@@ -706,9 +708,13 @@ Der Trakt Service kann ab jetzt genutzt weren
 
 Nachdem nun im Addon eine Suche durchgeführt wurde und das Ergebnis angezeigt wird, kann das Kontextmenü geöffnet werden und hier *Trakt options*
 
-Im folgendem Menü gibt es eine Anzahl an verschiedenen Trakt Möglichkeiten wie zum Beispiel "Add to Watchlist". Wird hier was gespeichert sind das quasi die Trakt Favoriten
+Im folgendem Menü gibt es eine Anzahl an verschiedenen Trakt Möglichkeiten wie zum Beispiel "Add to Watchlist". Wird hier etwas gespeichert, ist das quasi die Trakt Merkliste, was man später mal anschauen möchte
 
-Zu finden ist das Ganze dann im Menüpunkt Trakt z.B. unter Serien Watchlist. Dieser Menüpunkt kann dann für einen schnellen Zugriff als Kodi Favoriten gespeichert werden
+Zu finden ist das Ganze dann im Menüpunkt Trakt z.B. unter Serien Watchlist
+
+Startet man nun etwas aus der Watchlist, verschwindet es von dort und ist unter dem Eintrag *Your Recently Watched Serien/Filme* zu finden mit aktuellem gesehen Status
+
+Dieser Menüpunkt kann dann für einen schnellen Zugriff als Kodi Favoriten gespeichert werden
 
 *Players*
 
