@@ -637,9 +637,16 @@ Damit ergeben sich neue Möglichkeiten im Bezug auf Nutzung von Trakt, TMDB und 
 
 Bei Nutzung dieses Addons dient Xship nur noch zum Suchen der Hoster/Indexseiten. Alles andere wird direkt von diesem Addon erledigt
 
+
 **Installation:**
 
-Das Addon aus obigem Link herunterladen und in Kodi "aus .zip Installieren"
+Das Addon befindet sich in der Kodi Repo und kann direkt in Kodi installiert werden. Dazu folgende Schritte durchführen:
+
+Addons - Addon Browser (Schachtel links oben) - Suchen - helper eintragen
+
+Nun auf TheMovieDbHelper klicken und installieren
+
+Das Addon kann auch aus obigem Link herunterladen und in Kodi mit "aus .zip Installieren", installiert werden
 
 Nach der Installation muss mindestens eine Einstellung gemacht werden, damit der entsprechende Ordner angelegt wird 
 
