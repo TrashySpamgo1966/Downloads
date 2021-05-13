@@ -10,7 +10,7 @@ Xship ist ein eigenständiges Addon. Vom Aussehen ist es Lastship sehr ähnlich,
 
 Der Schwerpunkt von Xship liegt darin, die Indexseiten funktionsfähig zu halten
 
-Das Addon läuft auf Kodi 18 und auf Kodi 19!
+Das Addon läuft auf Kodi 17, Kodi 18 und auf Kodi 19!
 
 Xship zeichnet sich durch seine Schnelligkeit bei der Suche und der Benutzeroberfläche aus. Neue Indexseiten und Funktionen gibt es nur wenn sich das Team dazu entscheidet und Zeit hat
 
