@@ -419,6 +419,12 @@ Klick auf *Generate Personal API Key*
 
 Es wird nun der Fanart API Key angezeigt, welcher dann in Xship eingetragen wird
 
+**Opensubtitles**
+
+Für die Verwendung von Untertiteln in Xship, ist ein kostenloses Benutzerkonto von [www.opensubtitles.org ](www.opensubtitles.org)nötig
+
+Die Webseite besuchen, ein Benutzerkonto erstellen und im Anschluss Benutzername und Passwort in den Xship Konto Einstellungen eintragen
+
 **TMDB (The Movie Database)**
 
 Auf [https://www.themoviedb.org/](https://www.themoviedb.org/) Registrieren und ein Benutzerkonto anlegen, Captcha lösen, fertig
