@@ -784,23 +784,6 @@ Wenn jedoch innerhalb kurzer Zeit zu viele Anfragen vom selben Benutzer kommen, 
 
 Später nocheinmal probieren und auf jeden Fall ein eigenes (Fake) Konto bei s.to ertsellen lösen diese Probleme
 
-**Premium Links werden übersprungen, normale Streams laufen, bzw. Ladekreis kurz sichtbar aber kein Stream**
-
-Es kommt oft vor, dass Streams von Premium Anbietern (z.B. Premiumize, RealDebrid, AllDebrid, MegaDebrid usw.) nicht laufen
-
-Entweder werden diese sofort übersprungen oder der Ladekreis ist kurz sichtbar aber kein Stream wird abgespielt
-
-Normale Streams laufen hingegen ohne Probleme
-
-Eine mögliche Lösung (die schon Erfolge gezeigt hat) ist folgende:
-
-Im URLReslover die *Cache Funktion* auf AUS schalten
-
-Erreichbar direkt über Xship:
-
-Werkzeuge - URLResolver Einstellungen - Cache Funktion benutzen auf AUS stellen
-
-Eventuell noch *Cache Funktion zurücksetzen* klicken
 
 **URL Resolver Einstellungen werden nach Update gelöscht**
 
