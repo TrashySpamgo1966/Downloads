@@ -83,10 +83,13 @@ Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewä
 |FilmPalast      |filmpalast.to      | 
 |HDfilme         |hdfilme.cx         | 
 |HDStreams	 |hd-streams.org     | 
+|Kinoger         |kinoger.to	     |
+|Kinox		 |kinox.to	     |
 |KKiste	         |kkiste.movie 	     |   
 |Movie4k         |movie4k.one        | 
 |Movietown  	 |movietown.org      |
 |Serienstream	 |serienstream.to    | 
+|Streamworld	 |streamworld.in     |
 
 Für die Verwendung von Serienstream.to, ist auf deren Homepage das Anlegen eines Benutzer Kontos erforderlich
 
