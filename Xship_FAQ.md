@@ -694,6 +694,10 @@ Hier kann eine Verbindung zu [Trakt.tv](www.trakt.tv) hergestellt werden, kosten
 
 Wenn erwünscht kann hier noch *Get watched indicators from Trakt* (importiere gesehen Status von Trakt) aktiviert werden
 
+**Themoviedb Helper & Autoplay**
+
+In xShip muss die Option Download abgeschaltet sein und die Auswahl Autoplay muss in den xShip Éinstellungen aktiviert werden
+
 **Trakt Konto einrichten:**
 
 Trakt.tv bietet viele Möglichkeiten, wie z.B. das Synchronisieren des Fortsetzungspunktes auf deren Server
