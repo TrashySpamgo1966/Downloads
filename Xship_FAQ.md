@@ -125,7 +125,7 @@ Hier ist ein Video von Rechtsanwalt Christian Solmecke, der über das Thema rech
 
 **Das hinzufügen von Xship über "als Quelle hinzufügen" in Kodi ist NICHT möglich!!!**
 
-**!!!Xship benötigt KEINE Repo, alles an erforderlichen Abhängigkeiten wird mit dem Addon mitinstalliert!!!**
+**!!!Wir die Xship Repo installiert, so ist man immer auf dem neusten Stand und alle Updates erfolgen darüber!!!**
 
 **Info:** Das Deutsche Xship Project sucht Entwickler zur Pflege der Index Seiten, Kenntnisse Programmiersprache Python (.py) erforderlich
 
