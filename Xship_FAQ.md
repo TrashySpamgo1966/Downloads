@@ -75,7 +75,7 @@ Bei Probleme hilft es sehr oft, den Kodi Cache zu löschen
 
 ## 1.1 Verfügbare Webseiten
 
-Die Funktion der folgenden Seiten ist auf Grund Fehlender Entwickler nicht gewährleistet
+Die Funktion der folgenden Seiten ist auf Grund fehlender Entwickler nicht immer gewährleistet
 
 | Name           | Domain            | 
 |:-------------- |:----------------- | 	
@@ -125,7 +125,7 @@ Hier ist ein Video von Rechtsanwalt Christian Solmecke, der über das Thema rech
 
 **Das hinzufügen von Xship über "als Quelle hinzufügen" in Kodi ist NICHT möglich!!!**
 
-**!!!Wir die Xship Repo installiert, so ist man immer auf dem neusten Stand und alle Updates erfolgen darüber!!!**
+**!!!Wird das Xship Repository installiert, so ist man immer auf dem neusten Stand und alle Updates erfolgen darüber!!!**
 
 **Info:** Das Deutsche Xship Project sucht Entwickler zur Pflege der Index Seiten, Kenntnisse Programmiersprache Python (.py) erforderlich
 
@@ -141,11 +141,10 @@ Xship und xStream verwenden den gleichen URLResolver
 
 **Installation erfolgt über das Kodi Menü:**
 
-1. Addons - aus .zip Installieren
-
-2. plugin.video.Xship Installieren 
-
--  unter *Video-Addons* ist Xship dann zu finden
+1. Addons - 'Aus Zip-Datei installieren'
+2. repository.xship-1.x.zip auswählen und installieren 
+3. Menüpunkt 'Aus Repository installieren' und xShip Repository auswählen
+4. unter *Video-Addons* ist Xship dann zu finden
 
 ## 2.2 Allgemeine Einstellungen und Wiedergabe
 
